@@ -1,0 +1,36 @@
+.c1 {
+    background-image: url(../samplePictures/new2.jpg);
+    height: 400px;
+    width: 1235px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 1%;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    box-shadow: 1px 4px 2px 2px #dcdde1;
+}
+.c1 form {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-50%);
+}
+.c1 div {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%,-50%);
+}
+.card {
+    transition: all 0.3s linear;
+}
+.card:hover {
+    transform: scale(1.05);
+}
+#del-btn, #edit-btn, #sub-btn, #upd-btn, #s-btn {
+    transition: all 0.3s linear;
+}
+#del-btn:hover, #edit-btn:hover, #sub-btn:hover, #upd-btn:hover, #s-btn:hover {
+    transform: scale(1.10);
+}
